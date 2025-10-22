@@ -4,7 +4,7 @@
   <h1>Soccer Analysis System</h1>
   <h3>Professional Computer Vision & Machine Learning Project</h3>
   
-  <p><strong>Developed by Ashok Sravanam</strong></p>
+
 
 </div>
 
@@ -84,7 +84,5 @@ The system generates:
 - **Data Science**: Coordinate transformation, statistical analysis
 
 ---
-
-**Developer**: Ashok Sravanam  
 **Technologies**: Python, OpenCV, YOLO, PostgreSQL, scikit-learn  
 **Repository**: https://github.com/ashok-sravanam/sports-optimized-
