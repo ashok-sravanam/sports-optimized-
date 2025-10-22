@@ -1,0 +1,22 @@
+description: Ultralytics football-ball-detection model trained on /content/datasets/football-ball-detection-2/data.yaml
+author: Ultralytics
+date: '2025-10-20T03:37:11.722806'
+version: 8.3.217
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: ball
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  dynamic: false
+  nms: false
+channels: 3
