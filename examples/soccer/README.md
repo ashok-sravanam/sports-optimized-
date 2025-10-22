@@ -1,128 +1,151 @@
-# Soccer AI ⚽
+# Soccer Analysis System - Version 3.0
 
-## 💻 install
+**Professional soccer tracking and tactical analysis with database integration**
 
-We don't have a Python package yet. Install from source in a
-[**Python>=3.8**](https://www.python.org/) environment.
+## 🚀 **Quick Start**
 
 ```bash
-pip install git+https://github.com/roboflow/sports.git
-cd examples/soccer
-pip install -r requirements.txt
+# Clone and setup
+git clone https://github.com/ashok-sravanam/sports-optimized-.git
+cd sports-optimized/examples/soccer
+
+# Install dependencies
+pip3 install -r requirements.txt
+pip3 install -r tactical_requirements.txt
+
+# Download models and sample video
+chmod +x setup.sh
 ./setup.sh
+
+# Run analysis
+python3 test_bug_fixes.py \
+    --source_video_path "video_outputs/psgVSliv.mov" \
+    --target_video_path "video_outputs/analysis_output.mp4" \
+    --max_frames 500 \
+    --device cpu
 ```
 
-## ⚽ datasets
+## ✨ **Features**
 
-Original data comes from the [DFL - Bundesliga Data Shootout](https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout) 
-Kaggle competition. This data has been processed to create new datasets, which can be 
-downloaded from the [Roboflow Universe](https://universe.roboflow.com/).
+- **Split-Screen Analysis**: Live video feed + tactical board
+- **Player Tracking**: 20+ players with jersey numbers
+- **Team Classification**: Automatic team identification
+- **Data Export**: CSV/JSON/TXT with complete tracking data
+- **Mock Database**: Works without PostgreSQL
+- **Real-Time Progress**: Live processing updates
+- **Professional Visualization**: Tactical board with formations
 
-| use case                        | dataset                                                                                                                                                          | train model                                                                                                                                                                                            |
-|:--------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| soccer player detection         | [![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/sports/blob/main/examples/soccer/notebooks/train_player_detector.ipynb)         |
-| soccer ball detection           | [![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/roboflow-jvuqo/football-ball-detection-rejhg)    | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/sports/blob/main/examples/soccer/notebooks/train_ball_detector.ipynb)           |
-| soccer pitch keypoint detection | [![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/roboflow-jvuqo/football-field-detection-f07vi)   | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/sports/blob/main/examples/soccer/notebooks/train_pitch_keypoint_detector.ipynb) |
+## 📁 **File Structure**
 
-## 🤖 models
+```
+soccer/
+├── 📄 Core Files
+│   ├── split_screen_database_analysis.py    # Main analysis system
+│   ├── test_bug_fixes.py                    # Easy testing script
+│   ├── local_data_exporter.py              # Data export system
+│   ├── analyze_tracking_data.py             # Data analysis tool
+│   └── soccer_database_manager.py           # Database integration
+│
+├── 📄 Configuration
+│   ├── enhanced_jersey_manager.py          # Jersey assignment
+│   ├── setup_database_sample.py            # Database setup
+│   ├── requirements.txt                    # Python dependencies
+│   ├── tactical_requirements.txt           # Additional dependencies
+│   └── setup.sh                           # Model download script
+│
+├── 📄 Documentation
+│   ├── README.md                           # This file
+│   ├── DATABASE_INTEGRATION_README.md      # Database guide
+│   ├── TACTICAL_ANALYSIS_README.md        # Tactical analysis guide
+│   └── database_schema.sql                # Database schema
+│
+├── 📁 data/                                # Models and sample videos
+│   ├── football-player-detection.pt
+│   ├── football-pitch-detection.pt
+│   ├── football-ball-detection.pt
+│   └── psgVSliv.mov
+│
+├── 📁 tracking_data/                       # Exported data
+│   └── TRACKING_DATA_COLUMNS_README.md    # Data documentation
+│
+├── 📁 video_outputs/                       # Output videos
+├── 📁 misc/                                # Legacy files
+└── 📁 notebooks/                           # Training notebooks
+```
 
-- [YOLOv8](https://docs.ultralytics.com/models/yolov8/) (Player Detection) - Detects 
-players, goalkeepers, referees, and the ball in the video.
-- [YOLOv8](https://docs.ultralytics.com/models/yolov8/) (Pitch Detection) - Identifies 
-the soccer field boundaries and key points.
-- [SigLIP](https://huggingface.co/docs/transformers/en/model_doc/siglip) - Extracts 
-features from image crops of players.
-- [UMAP](https://umap-learn.readthedocs.io/en/latest/) - Reduces the dimensionality of 
-the extracted features for easier clustering.
-- [KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) - 
-Clusters the reduced-dimension features to classify players into two teams.
+## 🎯 **Output Files**
 
-## 🛠️ modes
+After running analysis, you'll get:
 
-- `PITCH_DETECTION` - Detects the soccer field boundaries and key points in the video. 
-Useful for identifying and visualizing the layout of the soccer pitch.
+- **📹 Video**: `video_outputs/analysis_output.mp4` (split-screen)
+- **📊 Data**: `tracking_data/positions_YYYYMMDD_HHMMSS.csv` (10,000+ records)
+- **📈 Stats**: `tracking_data/summary_YYYYMMDD_HHMMSS.json` (statistics)
+- **📋 Report**: `tracking_data/stats_YYYYMMDD_HHMMSS.txt` (human-readable)
+- **📖 Docs**: `tracking_data/TRACKING_DATA_COLUMNS_README.md` (data guide)
 
-  ```bash
-  python main.py --source_video_path data/2e57b9_0.mp4 \
-  --target_video_path data/2e57b9_0-pitch-detection.mp4 \
-  --device mps --mode PITCH_DETECTION
-  ```
+## 🔧 **Requirements**
 
-  https://github.com/user-attachments/assets/cf4df75a-89fe-4c6f-b3dc-e4d63a0ed211
+- **Python 3.8+**
+- **4GB+ RAM**
+- **~2GB disk space**
+- **macOS/Linux/Windows**
 
-- `PLAYER_DETECTION` - Detects players, goalkeepers, referees, and the ball in the 
-video. Essential for identifying and tracking the presence of players and other 
-entities on the field.
+## 📊 **Data Columns**
 
-  ```bash
-  python main.py --source_video_path data/2e57b9_0.mp4 \
-  --target_video_path data/2e57b9_0-player-detection.mp4 \
-  --device mps --mode PLAYER_DETECTION
-  ```
+| Column | Description | Example |
+|--------|-------------|---------|
+| frame | Video frame number | 123 |
+| timestamp | Time in seconds | 4.39 |
+| tracker_id | Unique player ID | 2 |
+| jersey | Jersey number (1-11) | 1 |
+| team_id | Team identifier | 1 |
+| player_name | Player name | "Courtois" |
+| video_x, video_y | Video pixel coordinates | 410, 506 |
+| pitch_x, pitch_y | Real-world coordinates | 5974, 6664 |
+| board_x, board_y | Tactical board coordinates | 597, 761 |
+| confidence | Detection confidence | 0.916 |
 
-  https://github.com/user-attachments/assets/c36ea2c1-b03e-4ffe-81bd-27391260b187
+## 🎮 **Usage Examples**
 
-- `BALL_DETECTION` - Detects the ball in the video frames and tracks its position. 
-Useful for following ball movements throughout the match.
+```bash
+# Quick test (50 frames)
+python3 test_bug_fixes.py --max_frames 50
 
-  ```bash
-  python main.py --source_video_path data/2e57b9_0.mp4 \
-  --target_video_path data/2e57b9_0-ball-detection.mp4 \
-  --device mps --mode BALL_DETECTION
-  ```
+# Full analysis (500 frames)
+python3 test_bug_fixes.py --max_frames 500
 
-  https://github.com/user-attachments/assets/2fd83678-7790-4f4d-a8c0-065ef38ca031
+# Custom video
+python3 test_bug_fixes.py \
+    --source_video_path "your_video.mp4" \
+    --target_video_path "output.mp4" \
+    --max_frames 1000
+```
 
-- `PLAYER_TRACKING` - Tracks players across video frames, maintaining consistent 
-identification. Useful for following player movements and positions throughout the 
-match.
+## 🔍 **Troubleshooting**
 
-  ```bash
-  python main.py --source_video_path data/2e57b9_0.mp4 \
-  --target_video_path data/2e57b9_0-player-tracking.mp4 \
-  --device mps --mode PLAYER_TRACKING
-  ```
-  
-  https://github.com/user-attachments/assets/69be83ac-52ff-4879-b93d-33f016feb839
+- **Missing models**: Run `./setup.sh`
+- **Permission error**: `chmod +x setup.sh`
+- **Python error**: Check Python 3.8+
+- **Memory issue**: Reduce `--max_frames`
 
-- `TEAM_CLASSIFICATION` - Classifies detected players into their respective teams based 
-on their visual features. Helps differentiate between players of different teams for 
-analysis and visualization.
+## 📈 **Performance**
 
-  ```bash
-  python main.py --source_video_path data/2e57b9_0.mp4 \
-  --target_video_path data/2e57b9_0-team-classification.mp4 \
-  --device mps --mode TEAM_CLASSIFICATION
-  ```
+- **50 frames**: ~4 minutes
+- **500 frames**: ~40 minutes
+- **1000 frames**: ~80 minutes
 
-  https://github.com/user-attachments/assets/239c2960-5032-415c-b330-3ddd094d32c7
+## 🎯 **Version 3.0 Improvements**
 
-- `RADAR` - Combines pitch detection, player detection, tracking, and team 
-classification to generate a radar-like visualization of player positions on the 
-soccer field. Provides a comprehensive overview of player movements and team formations 
-on the field.
+- ✅ Fixed jersey number visibility
+- ✅ Added boundary clipping
+- ✅ Implemented local data export
+- ✅ Added real-time data overlay
+- ✅ Created comprehensive documentation
+- ✅ Added mock database support
+- ✅ Enhanced split-screen analysis
 
-  ```bash
-  python main.py --source_video_path data/2e57b9_0.mp4 \
-  --target_video_path data/2e57b9_0-radar.mp4 \
-  --device mps --mode RADAR
-  ```
+---
 
-  https://github.com/user-attachments/assets/263b4cd0-2185-4ed3-9be2-cf4d8f5bfa67
-
-## 🗺️ roadmap
-
-- [ ] Add smoothing to eliminate flickering in RADAR mode.
-- [ ] Add a notebook demonstrating how to save data and perform offline data analysis.
-
-## © license
-
-This demo integrates two main components, each with its own licensing:
-
-- ultralytics: The object detection model used in this demo, YOLOv8, is distributed 
-under the [AGPL-3.0 license](https://github.com/ultralytics/ultralytics/blob/main/LICENSE).
-- sports: The analytics code that powers the sports analysis in this demo is based on 
-the [Supervision](https://github.com/roboflow/supervision) library, which is licensed 
-under the [MIT license](https://github.com/roboflow/supervision/blob/develop/LICENSE.md). 
-This makes the sports part of the code fully open source and freely usable in your 
-projects.
+**Built with**: Python, OpenCV, YOLO, Supervision, PostgreSQL
+**License**: MIT
+**Repository**: https://github.com/ashok-sravanam/sports-optimized-
