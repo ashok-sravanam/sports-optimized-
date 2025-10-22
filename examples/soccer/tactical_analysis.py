@@ -190,6 +190,12 @@ def train_team_classifier(team_classifier: TeamClassifier, video_path: str, max_
 
 def tactical_analysis(source_video_path: str, target_video_path: str, device: str = "cpu", 
                     match_id: int = 1, team_a_id: int = 1, team_b_id: int = 2):
+    # Ensure target_path is in video_outputs directory
+    if not target_video_path.startswith('video_outputs/'):
+        target_video_path = os.path.join('video_outputs', os.path.basename(target_video_path))
+    
+    # Create video_outputs directory if it doesn't exist
+    os.makedirs('video_outputs', exist_ok=True)
     """Run tactical analysis with jersey assignment and database integration"""
     
     # Initialize jersey assignment manager
@@ -332,6 +338,12 @@ def tactical_analysis(source_video_path: str, target_video_path: str, device: st
     print(f"✓ Jersey assignments saved to: final_jersey_assignments.json")
 
 def interactive_analysis(source_video_path: str, target_video_path: str, device: str = "cpu"):
+    # Ensure target_path is in video_outputs directory
+    if not target_video_path.startswith('video_outputs/'):
+        target_video_path = os.path.join('video_outputs', os.path.basename(target_video_path))
+    
+    # Create video_outputs directory if it doesn't exist
+    os.makedirs('video_outputs', exist_ok=True)
     """Run interactive analysis with real-time jersey assignment"""
     
     # Initialize jersey assignment manager

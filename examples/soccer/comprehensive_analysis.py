@@ -135,6 +135,12 @@ def render_radar(detections: sv.Detections, keypoints: sv.KeyPoints, color_looku
 
 
 def comprehensive_analysis(source_video_path: str, target_video_path: str, device: str) -> None:
+    # Ensure target_path is in video_outputs directory
+    if not target_video_path.startswith('video_outputs/'):
+        target_video_path = os.path.join('video_outputs', os.path.basename(target_video_path))
+    
+    # Create video_outputs directory if it doesn't exist
+    os.makedirs('video_outputs', exist_ok=True)
     """
     Perform comprehensive soccer analysis combining all 6 modes.
     """

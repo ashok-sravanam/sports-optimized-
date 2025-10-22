@@ -142,6 +142,12 @@ def render_radar_with_ball(player_detections: sv.Detections, ball_detections: sv
 
 
 def clean_analysis(source_video_path: str, target_video_path: str, device: str) -> None:
+    # Ensure target_path is in video_outputs directory
+    if not target_video_path.startswith('video_outputs/'):
+        target_video_path = os.path.join('video_outputs', os.path.basename(target_video_path))
+    
+    # Create video_outputs directory if it doesn't exist
+    os.makedirs('video_outputs', exist_ok=True)
     """
     Perform clean soccer analysis combining all 6 modes with pitch detection hidden.
     """

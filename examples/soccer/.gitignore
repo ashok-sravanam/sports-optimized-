@@ -1,0 +1,41 @@
+# Video outputs directory
+video_outputs/
+
+# Large model files
+*.pt
+*.bin
+*.xml
+
+# Video files
+*.mp4
+*.mov
+*.avi
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log

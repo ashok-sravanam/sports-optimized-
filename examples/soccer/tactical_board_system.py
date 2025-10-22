@@ -298,6 +298,12 @@ def train_team_classifier(team_classifier: TeamClassifier, video_path: str, max_
         print("⚠ No player crops found for training")
 
 def tactical_board_analysis(source_video_path: str, target_video_path: str, device: str = "cpu"):
+    # Ensure target_path is in video_outputs directory
+    if not target_video_path.startswith('video_outputs/'):
+        target_video_path = os.path.join('video_outputs', os.path.basename(target_video_path))
+    
+    # Create video_outputs directory if it doesn't exist
+    os.makedirs('video_outputs', exist_ok=True)
     """Run tactical board analysis with focus on homography and jersey assignment"""
     
     # Initialize tactical board manager

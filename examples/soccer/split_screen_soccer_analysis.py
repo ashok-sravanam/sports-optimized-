@@ -246,6 +246,13 @@ def train_team_classifier(team_classifier: TeamClassifier, video_path: str, max_
 def process_video(source_path: str, target_path: str, device: str = 'cpu', max_frames: int = 50):
     """Main processing loop"""
     
+    # Ensure target_path is in video_outputs directory
+    if not target_path.startswith('video_outputs/'):
+        target_path = os.path.join('video_outputs', os.path.basename(target_path))
+    
+    # Create video_outputs directory if it doesn't exist
+    os.makedirs('video_outputs', exist_ok=True)
+    
     # Load models
     print("Loading models...")
     player_model = YOLO(PLAYER_DETECTION_MODEL_PATH).to(device=device)
