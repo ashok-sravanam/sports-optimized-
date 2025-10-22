@@ -1,51 +1,89 @@
 <div align="center">
 
-  <h1>sports</h1>
-
-[notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [maestro](https://github.com/roboflow/multimodal-maestro)
+  <h1>Soccer Analysis System</h1>
+  <h3>Professional Computer Vision & Machine Learning Project</h3>
+  
+  <p><strong>Developed by Ashok Sravanam</strong></p>
 
 </div>
 
-## 👋 hello
+## 👋 About This Project
 
-In sports, every centimeter and every second matter. That's why Roboflow decided to use sports as a testing ground to push our object detection, image segmentation, keypoint detection, and foundational models to their limits. This repository contains reusable tools that can be applied in sports and beyond.
+This repository contains a comprehensive soccer analysis system that demonstrates advanced computer vision and machine learning techniques. The system performs real-time player tracking, team classification, tactical analysis, and database integration with professional-grade data export capabilities.
 
-## 🥵 challenges
+## 🎯 Project Overview
 
-Are you also a fan of computer vision and sports?  We welcome contributions from anyone who shares our passion! Together, we can build powerful open-source tools for sports analytics. Here are the main challenges we're looking to tackle:
+The Soccer Analysis System processes soccer videos to extract detailed player tracking data, perform tactical analysis, and export comprehensive datasets. It features a split-screen interface with real-time video analysis and tactical board visualization.
 
-- **Ball tracking:** Tracking the ball is extremely difficult due to its small size and rapid movements, especially in high-resolution videos.
-- **Reading jersey numbers:** Accurately reading player jersey numbers is often hampered by blurry videos, players turning away, or other objects obscuring the numbers.
-- **Player tracking:** Maintaining consistent player identification throughout a game is a challenge due to frequent occlusions caused by other players or objects on the field.
-- **Player re-identification:** Re-identifying players who have left and re-entered the frame is tricky, especially with moving cameras or when players are visually similar.
-- **Camera calibration:** Accurately calibrating camera views is crucial for extracting advanced statistics like player speed and distance traveled. This is a complex task due to the dynamic nature of sports and varying camera angles.
+## 🎯 Technical Challenges Solved
 
-## 💻 install
+This project addresses several complex computer vision challenges in sports analytics:
 
-We don't have a Python package yet. Install from source in a
-[**Python>=3.8**](https://www.python.org/) environment.
+- **Real-time Player Tracking:** Implemented robust player tracking using YOLO and ByteTrack to maintain consistent player identification across frames
+- **Team Classification:** Developed automated team classification using SigLIP feature extraction and machine learning clustering
+- **Multi-coordinate Transformation:** Created coordinate transformation pipeline from video pixels to real-world pitch coordinates
+- **Database Integration:** Built comprehensive PostgreSQL integration with mock database fallback for testing
+- **Data Export Pipeline:** Implemented complete ETL pipeline with CSV/JSON/TXT export formats
+- **Professional UI:** Developed split-screen interface with tactical board visualization and real-time progress tracking
+
+## 💻 Installation
+
+Install the system in a [**Python>=3.8**](https://www.python.org/) environment.
 
 ```bash
-pip install git+https://github.com/roboflow/sports.git
+# Clone the repository
+git clone https://github.com/ashok-sravanam/sports-optimized-.git
+cd sports-optimized/examples/soccer
+
+# Install dependencies
+pip3 install -r requirements.txt
+pip3 install -r tactical_requirements.txt
+
+# Download models and sample video
+chmod +x setup.sh
+./setup.sh
 ```
 
-## ⚽ datasets
+## 🚀 Quick Start
 
-| use case                               | dataset                                                                                                                                                           |
-|:---------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ⚽ soccer player detection              | [![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc)  |
-| ⚽ soccer ball detection                | [![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/roboflow-jvuqo/football-ball-detection-rejhg)     |
-| ⚽ soccer pitch keypoint detection      | [![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/roboflow-jvuqo/football-field-detection-f07vi)    |
-| 🏀 basketball court keypoint detection | [![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/roboflow-jvuqo/basketball-court-detection-2)      |
-| 🏀 basketball jersey numbers ocr       | [![Download Dataset](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/roboflow-jvuqo/basketball-jersey-numbers-ocr)     |
+```bash
+# Run the analysis system
+python3 test_bug_fixes.py \
+    --source_video_path "video_outputs/psgVSliv.mov" \
+    --target_video_path "video_outputs/analysis_output.mp4" \
+    --max_frames 500 \
+    --device cpu
+```
 
+## 🎯 Features
 
-Visit [Roboflow Universe](https://universe.roboflow.com/) and explore other sport-related datasets.
+- **Real-time Player Tracking**: 20+ players with jersey numbers
+- **Team Classification**: Automatic team identification
+- **Tactical Analysis**: Professional tactical board visualization
+- **Data Export**: CSV/JSON/TXT with 10,000+ position records
+- **Database Integration**: PostgreSQL with mock database fallback
+- **Split-screen Interface**: Video feed + tactical board
+- **Professional UI**: Real-time progress tracking and data overlay
 
-## 🔥 demos
+## 📊 Output
 
-https://github.com/roboflow/sports/assets/26109316/7ad414dd-cc4e-476d-9af3-02dfdf029205
+The system generates:
+- **Video**: Split-screen analysis with tactical board
+- **Data**: Complete CSV export with all tracking data
+- **Statistics**: JSON summary with player metrics
+- **Reports**: Human-readable analysis reports
+- **Documentation**: Comprehensive data column guides
 
-## 🏆 contribution
+## 🏆 Technical Achievements
 
-We love your input! [Let us know](https://github.com/roboflow/sports/issues) what else we should build!
+- **Computer Vision**: YOLO object detection, OpenCV processing
+- **Machine Learning**: Team classification, feature extraction
+- **Database Design**: PostgreSQL schema with relational modeling
+- **Software Engineering**: Modular architecture, error handling
+- **Data Science**: Coordinate transformation, statistical analysis
+
+---
+
+**Developer**: Ashok Sravanam  
+**Technologies**: Python, OpenCV, YOLO, PostgreSQL, scikit-learn  
+**Repository**: https://github.com/ashok-sravanam/sports-optimized-

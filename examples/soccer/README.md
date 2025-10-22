@@ -2,6 +2,8 @@
 
 **Professional soccer tracking and tactical analysis with database integration**
 
+*Developed by Ashok Sravanam*
+
 ## 🚀 **Quick Start**
 
 ```bash
@@ -107,7 +109,7 @@ After running analysis, you'll get:
 
 ## 🎮 **Usage Examples**
 
-```bash
+  ```bash
 # Quick test (50 frames)
 python3 test_bug_fixes.py --max_frames 50
 
@@ -136,16 +138,30 @@ python3 test_bug_fixes.py \
 
 ## 🎯 **Version 3.0 Improvements**
 
-- ✅ Fixed jersey number visibility
-- ✅ Added boundary clipping
-- ✅ Implemented local data export
-- ✅ Added real-time data overlay
-- ✅ Created comprehensive documentation
-- ✅ Added mock database support
-- ✅ Enhanced split-screen analysis
+- ✅ Fixed jersey number visibility with contrasting text colors
+- ✅ Added boundary clipping to keep players within pitch bounds
+- ✅ Implemented comprehensive local data export (CSV/JSON/TXT)
+- ✅ Added real-time data overlay showing coordinates and stats
+- ✅ Created detailed documentation for all tracking data columns
+- ✅ Added mock database support for testing without PostgreSQL
+- ✅ Enhanced split-screen analysis with professional tactical board
+- ✅ Implemented coordinate transformation across multiple systems
+- ✅ Added automated jersey number assignment system
+- ✅ Created modular architecture with clean code organization
+
+## 🏆 **Project Highlights**
+
+This project demonstrates advanced computer vision and machine learning techniques applied to sports analytics. The system processes soccer videos to extract detailed player tracking data, perform tactical analysis, and export comprehensive datasets for further analysis.
+
+### **Key Technical Achievements**
+- **Real-time Processing**: Handles 500+ frames with full analysis pipeline
+- **Multi-coordinate Systems**: Video → Pitch → Tactical board transformations
+- **Database Integration**: PostgreSQL with mock database fallback
+- **Professional UI**: Split-screen interface with tactical board visualization
+- **Data Export**: 10,000+ position records with complete metadata
 
 ---
 
-**Built with**: Python, OpenCV, YOLO, Supervision, PostgreSQL
-**License**: MIT
+**Developer**: Ashok Sravanam  
+**Technologies**: Python, OpenCV, YOLO, Supervision, PostgreSQL, scikit-learn  
 **Repository**: https://github.com/ashok-sravanam/sports-optimized-
