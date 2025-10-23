@@ -1,0 +1,326 @@
+{
+  "session_timestamp": "20251023_030655",
+  "total_records": 140,
+  "total_frames": 9,
+  "duration_seconds": 0.321,
+  "players": {
+    "1": {
+      "position": 1,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 1674.06,
+        "y": 4361.83
+      },
+      "position_range": {
+        "x_min": 1658.56,
+        "x_max": 1693.64,
+        "y_min": 4355.45,
+        "y_max": 4376.02
+      },
+      "avg_confidence": 0.935
+    },
+    "2": {
+      "position": 11,
+      "team_id": 0,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 5996.43,
+        "y": 6672.4
+      },
+      "position_range": {
+        "x_min": 5974.64,
+        "x_max": 6023.42,
+        "y_min": 6664.17,
+        "y_max": 6679.36
+      },
+      "avg_confidence": 0.9
+    },
+    "4": {
+      "position": 6,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 7261.41,
+        "y": 5710.72
+      },
+      "position_range": {
+        "x_min": 7208.36,
+        "x_max": 7283.46,
+        "y_min": 5668.29,
+        "y_max": 5737.16
+      },
+      "avg_confidence": 0.861
+    },
+    "5": {
+      "position": 8,
+      "team_id": 0,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 6827.26,
+        "y": 6508.52
+      },
+      "position_range": {
+        "x_min": 6796.29,
+        "x_max": 6879.02,
+        "y_min": 6502.81,
+        "y_max": 6515.58
+      },
+      "avg_confidence": 0.89
+    },
+    "6": {
+      "position": 5,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 4869.29,
+        "y": 5718.26
+      },
+      "position_range": {
+        "x_min": 4838.43,
+        "x_max": 4889.86,
+        "y_min": 5687.34,
+        "y_max": 5740.25
+      },
+      "avg_confidence": 0.892
+    },
+    "7": {
+      "position": 4,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 4620.6,
+        "y": 6167.4
+      },
+      "position_range": {
+        "x_min": 4598.79,
+        "x_max": 4654.9,
+        "y_min": 6158.6,
+        "y_max": 6174.7
+      },
+      "avg_confidence": 0.898
+    },
+    "8": {
+      "position": 11,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 5565.57,
+        "y": 6624.66
+      },
+      "position_range": {
+        "x_min": 5557.24,
+        "x_max": 5576.67,
+        "y_min": 6619.74,
+        "y_max": 6637.68
+      },
+      "avg_confidence": 0.918
+    },
+    "9": {
+      "position": 8,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 7595.1,
+        "y": 6779.07
+      },
+      "position_range": {
+        "x_min": 7510.14,
+        "x_max": 7677.2,
+        "y_min": 6761.64,
+        "y_max": 6795.06
+      },
+      "avg_confidence": 0.905
+    },
+    "10": {
+      "position": 3,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 5821.03,
+        "y": 5095.14
+      },
+      "position_range": {
+        "x_min": 5798.93,
+        "x_max": 5856.75,
+        "y_min": 5083.52,
+        "y_max": 5106.11
+      },
+      "avg_confidence": 0.883
+    },
+    "11": {
+      "position": 2,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 6550.65,
+        "y": 6198.66
+      },
+      "position_range": {
+        "x_min": 6491.95,
+        "x_max": 6589.92,
+        "y_min": 6172.12,
+        "y_max": 6217.71
+      },
+      "avg_confidence": 0.895
+    },
+    "12": {
+      "position": 1,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 3977.63,
+        "y": 5077.93
+      },
+      "position_range": {
+        "x_min": 3906.77,
+        "x_max": 4035.96,
+        "y_min": 5052.15,
+        "y_max": 5099.93
+      },
+      "avg_confidence": 0.876
+    },
+    "13": {
+      "position": 3,
+      "team_id": 0,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 7965.42,
+        "y": 4830.21
+      },
+      "position_range": {
+        "x_min": 7930.67,
+        "x_max": 8008.09,
+        "y_min": 4792.87,
+        "y_max": 4869.31
+      },
+      "avg_confidence": 0.826
+    },
+    "14": {
+      "position": 2,
+      "team_id": 0,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 5485.5,
+        "y": 5579.06
+      },
+      "position_range": {
+        "x_min": 5471.5,
+        "x_max": 5504.08,
+        "y_min": 5571.25,
+        "y_max": 5593.72
+      },
+      "avg_confidence": 0.899
+    },
+    "15": {
+      "position": 4,
+      "team_id": 0,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 4739.0,
+        "y": 4417.28
+      },
+      "position_range": {
+        "x_min": 4711.32,
+        "x_max": 4774.36,
+        "y_min": 4395.08,
+        "y_max": 4446.94
+      },
+      "avg_confidence": 0.838
+    },
+    "17": {
+      "position": 7,
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 3580.0,
+        "y": 4084.15
+      },
+      "position_range": {
+        "x_min": 3552.83,
+        "x_max": 3593.64,
+        "y_min": 4049.56,
+        "y_max": 4109.81
+      },
+      "avg_confidence": 0.815
+    },
+    "19": {
+      "position": 6,
+      "team_id": 0,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 3614.37,
+        "y": 1981.51
+      },
+      "position_range": {
+        "x_min": 3586.23,
+        "x_max": 3652.74,
+        "y_min": 1958.86,
+        "y_max": 1998.13
+      },
+      "avg_confidence": 0.76
+    },
+    "20": {
+      "position": 5,
+      "team_id": 0,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 4389.19,
+        "y": 6033.68
+      },
+      "position_range": {
+        "x_min": 4359.7,
+        "x_max": 4409.0,
+        "y_min": 6024.44,
+        "y_max": 6046.35
+      },
+      "avg_confidence": 0.874
+    },
+    "21": {
+      "position": 1,
+      "team_id": 0,
+      "frames_tracked": 7,
+      "avg_pitch_position": {
+        "x": 5723.37,
+        "y": 5465.56
+      },
+      "position_range": {
+        "x_min": 5693.79,
+        "x_max": 5764.51,
+        "y_min": 5447.29,
+        "y_max": 5481.78
+      },
+      "avg_confidence": 0.844
+    },
+    "23": {
+      "position": 111,
+      "team_id": 0,
+      "frames_tracked": 4,
+      "avg_pitch_position": {
+        "x": 4667.31,
+        "y": 2158.73
+      },
+      "position_range": {
+        "x_min": 4636.12,
+        "x_max": 4703.32,
+        "y_min": 2134.32,
+        "y_max": 2186.89
+      },
+      "avg_confidence": 0.722
+    }
+  },
+  "ball": {
+    "frames_tracked": 10,
+    "avg_pitch_position": {
+      "x": 8597.92,
+      "y": 6584.07
+    },
+    "position_range": {
+      "x_min": 5623.82,
+      "x_max": 9583.02,
+      "y_min": 5483.45,
+      "y_max": 6873.61
+    },
+    "avg_confidence": 0.755
+  }
+}

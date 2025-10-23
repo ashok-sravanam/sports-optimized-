@@ -1,0 +1,343 @@
+{
+  "timestamp": "20251023_034847",
+  "total_positions": 2168,
+  "total_frames": 99,
+  "players": {
+    "2": {
+      "jersey": 1,
+      "name": "Courtois",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 6324.032840689433,
+        "y": 6603.043336219394
+      },
+      "position_variance": {
+        "x": 95889.13458031861,
+        "y": 21261.034324828037
+      }
+    },
+    "8": {
+      "jersey": 1,
+      "name": "ter Stegen",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 5946.483786042204,
+        "y": 6510.466333762886
+      },
+      "position_variance": {
+        "x": 140412.49216018722,
+        "y": 27807.700103235595
+      }
+    },
+    "9": {
+      "jersey": 2,
+      "name": "Dest",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 8536.694235260953,
+        "y": 6491.980287532217
+      },
+      "position_variance": {
+        "x": 304232.5309299142,
+        "y": 100789.89123978723
+      }
+    },
+    "3": {
+      "jersey": 2,
+      "name": "Carvajal",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 10238.435536807345,
+        "y": 6480.134871335374
+      },
+      "position_variance": {
+        "x": 41270.280588238405,
+        "y": 203730.41331200366
+      }
+    },
+    "22": {
+      "jersey": 3,
+      "name": "Pique",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 4423.698310144169,
+        "y": 5407.178343468106
+      },
+      "position_variance": {
+        "x": 365428.3638353197,
+        "y": 35767.20505210557
+      }
+    },
+    "5": {
+      "jersey": 3,
+      "name": "Militao",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 7391.656884262242,
+        "y": 6061.942126087307
+      },
+      "position_variance": {
+        "x": 132047.7651788041,
+        "y": 134516.4608678085
+      }
+    },
+    "11": {
+      "jersey": 4,
+      "name": "Lenglet",
+      "team_id": 2,
+      "frames_tracked": 96,
+      "avg_position": {
+        "x": 7233.337331136067,
+        "y": 5809.523620605469
+      },
+      "position_variance": {
+        "x": 195034.97607527164,
+        "y": 93415.27349592373
+      }
+    },
+    "12": {
+      "jersey": 5,
+      "name": "Alba",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 4615.827835554929,
+        "y": 4607.079891873389
+      },
+      "position_variance": {
+        "x": 171712.93671700062,
+        "y": 95682.6186979109
+      }
+    },
+    "10": {
+      "jersey": 6,
+      "name": "Busquets",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 6174.983881684922,
+        "y": 4555.594769350032
+      },
+      "position_variance": {
+        "x": 78221.93744735372,
+        "y": 131643.64222701432
+      }
+    },
+    "14": {
+      "jersey": 4,
+      "name": "Alaba",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 5920.959643806379,
+        "y": 5344.622025008054
+      },
+      "position_variance": {
+        "x": 110070.46063969818,
+        "y": 40101.847064131725
+      }
+    },
+    "7": {
+      "jersey": 7,
+      "name": "Pedri",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 5163.934610583118,
+        "y": 5856.919916841172
+      },
+      "position_variance": {
+        "x": 176812.26217864553,
+        "y": 62871.85716444927
+      }
+    },
+    "6": {
+      "jersey": 8,
+      "name": "De Jong",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 5438.31368294942,
+        "y": 5269.776191003544
+      },
+      "position_variance": {
+        "x": 174566.85827743803,
+        "y": 101842.16708293988
+      }
+    },
+    "16": {
+      "jersey": 5,
+      "name": "Mendy",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 3585.340324480509,
+        "y": 5119.258190037049
+      },
+      "position_variance": {
+        "x": 193131.7559545574,
+        "y": 20259.691759225043
+      }
+    },
+    "4": {
+      "jersey": 9,
+      "name": "Dembele",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 7685.466504913015,
+        "y": 5131.243591937822
+      },
+      "position_variance": {
+        "x": 87555.71287391928,
+        "y": 158715.96180348672
+      }
+    },
+    "21": {
+      "jersey": 6,
+      "name": "Casemiro",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 6159.610719031894,
+        "y": 4973.380461702642
+      },
+      "position_variance": {
+        "x": 99963.18080526544,
+        "y": 109340.56828868673
+      }
+    },
+    "13": {
+      "jersey": 7,
+      "name": "Modric",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 8433.979159954897,
+        "y": 4258.128868496295
+      },
+      "position_variance": {
+        "x": 77016.44606832399,
+        "y": 138610.6939523052
+      }
+    },
+    "15": {
+      "jersey": 8,
+      "name": "Kroos",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 5090.89689714884,
+        "y": 3983.6011220401097
+      },
+      "position_variance": {
+        "x": 69790.98853505685,
+        "y": 70486.39500307993
+      }
+    },
+    "20": {
+      "jersey": 9,
+      "name": "Vinicius",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 5007.219540310889,
+        "y": 5848.255597615979
+      },
+      "position_variance": {
+        "x": 278670.9775622872,
+        "y": 23321.759279723326
+      }
+    },
+    "17": {
+      "jersey": 10,
+      "name": "Depay",
+      "team_id": 2,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 3895.40966796875,
+        "y": 3612.699228817655
+      },
+      "position_variance": {
+        "x": 81513.83837142678,
+        "y": 89542.10645314457
+      }
+    },
+    "19": {
+      "jersey": 10,
+      "name": "Benzema",
+      "team_id": 1,
+      "frames_tracked": 87,
+      "avg_position": {
+        "x": 3977.7085690553163,
+        "y": 1938.8471441159304
+      },
+      "position_variance": {
+        "x": 58263.380765043614,
+        "y": 10612.46969946254
+      }
+    },
+    "23": {
+      "jersey": 11,
+      "name": "Asensio",
+      "team_id": 1,
+      "frames_tracked": 97,
+      "avg_position": {
+        "x": 6598.259458561533,
+        "y": 2100.1822484596487
+      },
+      "position_variance": {
+        "x": 1766218.627898439,
+        "y": 14375.31035384689
+      }
+    },
+    "1": {
+      "jersey": 1,
+      "name": "Player 1",
+      "team_id": 1,
+      "frames_tracked": 49,
+      "avg_position": {
+        "x": 1735.058763153699,
+        "y": 4336.447998046875
+      },
+      "position_variance": {
+        "x": 7695.154910279667,
+        "y": 11098.381598051714
+      }
+    },
+    "18": {
+      "jersey": 18,
+      "name": "Player 18",
+      "team_id": 1,
+      "frames_tracked": 7,
+      "avg_position": {
+        "x": 10321.068777901786,
+        "y": 7454.267159598215
+      },
+      "position_variance": {
+        "x": 17477.911306342303,
+        "y": 766.5670954451269
+      }
+    },
+    "24": {
+      "jersey": 24,
+      "name": "Player 24",
+      "team_id": 1,
+      "frames_tracked": 86,
+      "avg_position": {
+        "x": 7906.32953874455,
+        "y": 6835.4780670875725
+      },
+      "position_variance": {
+        "x": 224239.57891526908,
+        "y": 54446.54636537871
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+============================================================
+TRACKING DATA ANALYSIS REPORT
+============================================================
+
+Generated: 20251023_034847
+Total Positions Tracked: 2168
+Total Players: 24
+
+------------------------------------------------------------
+PLAYER STATISTICS
+------------------------------------------------------------
+
+Player: Courtois (Jersey #1)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (6324.03, 6603.04)
+  Position Range: X=[5829.53, 7015.27], Y=[6286.18, 6783.87]
+
+Player: ter Stegen (Jersey #1)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (5946.48, 6510.47)
+  Position Range: X=[5428.64, 6769.78], Y=[6155.87, 6732.56]
+
+Player: Player 1 (Jersey #1)
+  Team ID: 1
+  Frames Tracked: 49
+  Average Position: (1735.06, 4336.45)
+  Position Range: X=[1508.52, 1844.89], Y=[4059.89, 4449.85]
+
+Player: Dest (Jersey #2)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (8536.69, 6491.98)
+  Position Range: X=[7510.14, 9265.82], Y=[5781.22, 6850.85]
+
+Player: Carvajal (Jersey #2)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (10238.44, 6480.13)
+  Position Range: X=[9778.32, 10724.16], Y=[5560.12, 6944.17]
+
+Player: Pique (Jersey #3)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (4423.70, 5407.18)
+  Position Range: X=[3513.94, 5609.75], Y=[5066.59, 5705.03]
+
+Player: Militao (Jersey #3)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (7391.66, 6061.94)
+  Position Range: X=[6723.98, 8000.60], Y=[5383.50, 6527.58]
+
+Player: Lenglet (Jersey #4)
+  Team ID: 2
+  Frames Tracked: 96
+  Average Position: (7233.34, 5809.52)
+  Position Range: X=[6491.95, 7973.37], Y=[5273.55, 6233.36]
+
+Player: Alaba (Jersey #4)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (5920.96, 5344.62)
+  Position Range: X=[5471.50, 6594.19], Y=[5009.38, 5648.35]
+
+Player: Alba (Jersey #5)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (4615.83, 4607.08)
+  Position Range: X=[3906.77, 5391.94], Y=[4198.48, 5102.73]
+
+Player: Mendy (Jersey #5)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (3585.34, 5119.26)
+  Position Range: X=[3122.54, 4574.75], Y=[4940.36, 5354.00]
+
+Player: Busquets (Jersey #6)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (6174.98, 4555.59)
+  Position Range: X=[5798.93, 6735.64], Y=[4066.20, 5106.11]
+
+Player: Casemiro (Jersey #6)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (6159.61, 4973.38)
+  Position Range: X=[5693.79, 6788.51], Y=[4526.65, 5481.78]
+
+Player: Pedri (Jersey #7)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (5163.93, 5856.92)
+  Position Range: X=[4598.79, 6072.19], Y=[5447.32, 6227.51]
+
+Player: Modric (Jersey #7)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (8433.98, 4258.13)
+  Position Range: X=[7930.67, 8910.89], Y=[3702.25, 4869.31]
+
+Player: De Jong (Jersey #8)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (5438.31, 5269.78)
+  Position Range: X=[4838.43, 6293.38], Y=[4769.60, 5757.38]
+
+Player: Kroos (Jersey #8)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (5090.90, 3983.60)
+  Position Range: X=[4711.32, 5636.70], Y=[3591.81, 4446.94]
+
+Player: Dembele (Jersey #9)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (7685.47, 5131.24)
+  Position Range: X=[7208.36, 8224.66], Y=[4552.75, 5737.16]
+
+Player: Vinicius (Jersey #9)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (5007.22, 5848.26)
+  Position Range: X=[4359.70, 6131.76], Y=[5604.93, 6105.58]
+
+Player: Depay (Jersey #10)
+  Team ID: 2
+  Frames Tracked: 97
+  Average Position: (3895.41, 3612.70)
+  Position Range: X=[3552.83, 4500.05], Y=[3146.23, 4109.81]
+
+Player: Benzema (Jersey #10)
+  Team ID: 1
+  Frames Tracked: 87
+  Average Position: (3977.71, 1938.85)
+  Position Range: X=[3586.23, 4453.74], Y=[1707.73, 2169.28]
+
+Player: Asensio (Jersey #11)
+  Team ID: 1
+  Frames Tracked: 97
+  Average Position: (6598.26, 2100.18)
+  Position Range: X=[4617.85, 8912.21], Y=[1688.71, 2279.96]
+
+Player: Player 18 (Jersey #18)
+  Team ID: 1
+  Frames Tracked: 7
+  Average Position: (10321.07, 7454.27)
+  Position Range: X=[10116.64, 10507.51], Y=[7396.14, 7482.88]
+
+Player: Player 24 (Jersey #24)
+  Team ID: 1
+  Frames Tracked: 86
+  Average Position: (7906.33, 6835.48)
+  Position Range: X=[6938.86, 8733.06], Y=[6354.09, 7095.32]
+

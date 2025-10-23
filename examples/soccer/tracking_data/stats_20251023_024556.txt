@@ -1,0 +1,175 @@
+======================================================================
+UNIFIED TRACKING DATA ANALYSIS REPORT
+======================================================================
+
+Session: 20251023_024556
+Total Records: 164
+Total Frames: 9
+Duration: 0.32 seconds
+
+----------------------------------------------------------------------
+PLAYER STATISTICS
+----------------------------------------------------------------------
+
+Position #1 (Team 0)
+  Tracker ID: 1
+  Frames Tracked: 7
+  Avg Pitch Position: (1674.06, 4361.83)
+  Pitch Range: X=[1658.56, 1693.64], Y=[4355.45, 4376.02]
+  Avg Confidence: 0.935
+
+Position #11 (Team 1)
+  Tracker ID: 2
+  Frames Tracked: 7
+  Avg Pitch Position: (5996.43, 6672.40)
+  Pitch Range: X=[5974.64, 6023.42], Y=[6664.17, 6679.36]
+  Avg Confidence: 0.900
+
+Position #8 (Team 1)
+  Tracker ID: 3
+  Frames Tracked: 7
+  Avg Pitch Position: (10235.55, 6911.71)
+  Pitch Range: X=[10190.89, 10306.15], Y=[6899.87, 6926.10]
+  Avg Confidence: 0.906
+
+Position #7 (Team 0)
+  Tracker ID: 4
+  Frames Tracked: 7
+  Avg Pitch Position: (7261.41, 5710.72)
+  Pitch Range: X=[7208.36, 7283.46], Y=[5668.29, 5737.16]
+  Avg Confidence: 0.861
+
+Position #2 (Team 1)
+  Tracker ID: 5
+  Frames Tracked: 7
+  Avg Pitch Position: (6827.26, 6508.52)
+  Pitch Range: X=[6796.29, 6879.02], Y=[6502.81, 6515.58]
+  Avg Confidence: 0.890
+
+Position #6 (Team 0)
+  Tracker ID: 6
+  Frames Tracked: 7
+  Avg Pitch Position: (4869.29, 5718.26)
+  Pitch Range: X=[4838.43, 4889.86], Y=[5687.34, 5740.25]
+  Avg Confidence: 0.892
+
+Position #5 (Team 0)
+  Tracker ID: 7
+  Frames Tracked: 7
+  Avg Pitch Position: (4620.60, 6167.40)
+  Pitch Range: X=[4598.79, 4654.90], Y=[6158.60, 6174.70]
+  Avg Confidence: 0.898
+
+Position #11 (Team 0)
+  Tracker ID: 8
+  Frames Tracked: 7
+  Avg Pitch Position: (5565.57, 6624.66)
+  Pitch Range: X=[5557.24, 5576.67], Y=[6619.74, 6637.68]
+  Avg Confidence: 0.918
+
+Position #8 (Team 0)
+  Tracker ID: 9
+  Frames Tracked: 7
+  Avg Pitch Position: (7595.10, 6779.07)
+  Pitch Range: X=[7510.14, 7677.20], Y=[6761.64, 6795.06]
+  Avg Confidence: 0.905
+
+Position #4 (Team 0)
+  Tracker ID: 10
+  Frames Tracked: 7
+  Avg Pitch Position: (5821.03, 5095.14)
+  Pitch Range: X=[5798.93, 5856.75], Y=[5083.52, 5106.11]
+  Avg Confidence: 0.883
+
+Position #1 (Team 0)
+  Tracker ID: 11
+  Frames Tracked: 7
+  Avg Pitch Position: (6550.65, 6198.66)
+  Pitch Range: X=[6491.95, 6589.92], Y=[6172.12, 6217.71]
+  Avg Confidence: 0.895
+
+Position #3 (Team 0)
+  Tracker ID: 12
+  Frames Tracked: 7
+  Avg Pitch Position: (3977.63, 5077.93)
+  Pitch Range: X=[3906.77, 4035.96], Y=[5052.15, 5099.93]
+  Avg Confidence: 0.876
+
+Position #5 (Team 1)
+  Tracker ID: 13
+  Frames Tracked: 7
+  Avg Pitch Position: (7965.42, 4830.21)
+  Pitch Range: X=[7930.67, 8008.09], Y=[4792.87, 4869.31]
+  Avg Confidence: 0.826
+
+Position #1 (Team 1)
+  Tracker ID: 14
+  Frames Tracked: 7
+  Avg Pitch Position: (5485.50, 5579.06)
+  Pitch Range: X=[5471.50, 5504.08], Y=[5571.25, 5593.72]
+  Avg Confidence: 0.899
+
+Position #6 (Team 1)
+  Tracker ID: 15
+  Frames Tracked: 7
+  Avg Pitch Position: (4739.00, 4417.28)
+  Pitch Range: X=[4711.32, 4774.36], Y=[4395.08, 4446.94]
+  Avg Confidence: 0.838
+
+Position #3 (Team 1)
+  Tracker ID: 16
+  Frames Tracked: 7
+  Avg Pitch Position: (3136.51, 5288.34)
+  Pitch Range: X=[3122.54, 3156.60], Y=[5261.51, 5315.58]
+  Avg Confidence: 0.854
+
+Position #9 (Team 0)
+  Tracker ID: 17
+  Frames Tracked: 7
+  Avg Pitch Position: (3580.00, 4084.15)
+  Pitch Range: X=[3552.83, 3593.64], Y=[4049.56, 4109.81]
+  Avg Confidence: 0.815
+
+Position #9 (Team 1)
+  Tracker ID: 19
+  Frames Tracked: 7
+  Avg Pitch Position: (3614.37, 1981.51)
+  Pitch Range: X=[3586.23, 3652.74], Y=[1958.86, 1998.13]
+  Avg Confidence: 0.760
+
+Position #7 (Team 1)
+  Tracker ID: 20
+  Frames Tracked: 7
+  Avg Pitch Position: (4389.19, 6033.68)
+  Pitch Range: X=[4359.70, 4409.00], Y=[6024.44, 6046.35]
+  Avg Confidence: 0.874
+
+Position #4 (Team 1)
+  Tracker ID: 21
+  Frames Tracked: 7
+  Avg Pitch Position: (5723.37, 5465.56)
+  Pitch Range: X=[5693.79, 5764.51], Y=[5447.29, 5481.78]
+  Avg Confidence: 0.844
+
+Position #2 (Team 0)
+  Tracker ID: 22
+  Frames Tracked: 7
+  Avg Pitch Position: (3548.75, 5594.95)
+  Pitch Range: X=[3513.94, 3596.71], Y=[5575.84, 5604.56]
+  Avg Confidence: 0.864
+
+Position #10 (Team 1)
+  Tracker ID: 23
+  Frames Tracked: 7
+  Avg Pitch Position: (4675.31, 2159.84)
+  Pitch Range: X=[4617.85, 4738.40], Y=[2134.32, 2186.89]
+  Avg Confidence: 0.707
+
+----------------------------------------------------------------------
+BALL STATISTICS
+----------------------------------------------------------------------
+
+Frames Tracked: 10
+Avg Pitch Position: (8597.92, 6584.07)
+Pitch Range: X=[5623.82, 9583.02], Y=[5483.45, 6873.61]
+Avg Confidence: 0.755
