@@ -2,7 +2,6 @@
 
 **Professional soccer tracking and tactical analysis with unified ball tracking**
 
-*Developed by Ashok Sravanam*
 
 ## 🚀 **Quick Start**
 
